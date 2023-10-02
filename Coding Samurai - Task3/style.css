@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(22, 11, 1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+
+
+.calculator {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#input {
+    height: 63px;
+    color: rgb(225, 213, 213);
+    text-align: right;
+    overflow: hidden;
+    max-width: 290px;
+    border-style: solid;
+    border-color: rgb(232, 222, 222);
+    border-radius: 9px;
+}
+
+button{
+    height: 61px;
+    width: 61px;
+    font-size: 23px;
+    border: none;
+    border-radius: 18px;
+    margin: 4px;
+    background-color: rgb(79, 76, 76);
+    color: rgb(255, 255, 255);
+}
